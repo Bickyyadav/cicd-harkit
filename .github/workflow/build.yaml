@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v3  # this is for clone the github respository
         uses: actions/setup-node@v3 # install nodejs in machine 
         with: 
-          node-version: '20'  # run npm in the machine 
+          node-version:  '20'  # run npm in the  local machine so we have to know 
       
       -name: Install Dependencies 
        run: npm install 
